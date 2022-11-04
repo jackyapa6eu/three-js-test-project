@@ -1,1 +1,2 @@
-# three-js-test-project
+# Тестовое использование библиотеки three js
+
