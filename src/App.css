@@ -4,13 +4,8 @@
   background-color: #282c34;
 }
 
-main-container {
-
-}
-
 .App-header {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
@@ -26,5 +21,17 @@ main-container {
 
 .main-container {
   min-height: calc(100vh - 80px);
+  width: 100%;
   box-shadow: 0 0 10px black inset;
+  background: #1e0028;
+}
+
+canvas {
+  height: calc(100vh - 80px);
+}
+
+.inputs {
+  display: flex;
+  width: 100%;
+  justify-content: center;
 }
